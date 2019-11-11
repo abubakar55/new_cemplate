@@ -5,13 +5,14 @@
 }
 body
 {
-    background-image: url("Website-Design-Background-1.jpg");
+    /* background-image: url("Website-Design-Background-1.jpg"); */
     /* background-size: cover; */
     /* width: 50px; */ 
     /* border-image-width: 50px; */
     /* background-attachment: fixed; */
-    color: white;
+    /* color: white; */
 }
+
 .logo_image
 {
     width: 15%;
@@ -32,14 +33,14 @@ i
 }
 h1
 {
-    margin-left: 35% ;
+    margin-left: 42% ;
     padding-top: 10%;
     /* font-size: 130%; */
     
 }
 .heading1
 {
-    font-size: 80px;
+    /* font-size: 80px; */
     color: white;
 }
 span
@@ -108,4 +109,70 @@ span
 {
     text-align: center;
 }
-
+.heading_2
+{
+    margin-left: 48%;
+    margin-top: 5%;
+}
+.heading_3
+{
+    margin-left: 42%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+.html_logo
+{
+    float: left;
+    width: 5%;
+    height: 4%;
+    margin-top: 1%;
+    margin-left: 3%;
+    clear: left;
+}
+.first_card
+{
+    margin-left: 4%;
+}
+.para_heading_1
+{
+    margin-left: 3%;
+}
+.text_cards
+{
+    margin-top: 5%;
+}
+            /* footer stylling */
+.footer_heading
+{
+    margin-left: 45%;
+    margin-top: 5%;
+    padding-top: 5%;
+}
+.line
+{
+    margin-left: 48%;
+}
+.card-body{
+    color:white;
+}
+.branding
+{
+    width: 20%;
+    margin-left: 35%;
+}
+.footer_card_1
+{
+    padding-top: 5%;
+}
+.footer_card_2
+{
+    padding-top: 7%;
+}
+.footer_card_3
+{
+    padding-top: 5%;
+}
+.footer_card_4
+{
+    padding-top: 7%;
+}
