@@ -59,7 +59,7 @@ span
 }
 .btn-outline-light
 {
-    margin-left:45%;
+    margin-left:46%;
     color: white;
     margin-top: 2%;
     margin-bottom: 5%;
@@ -111,13 +111,13 @@ span
 }
 .heading_2
 {
-    margin-left: 48%;
+    margin-left: 43%;
     margin-top: 5%;
 }
 .heading_3
 {
-    margin-left: 42%;
-    margin-top: 1%;
+    margin-left: 36%;
+    margin-top: 2%;
     margin-bottom: 2%;
 }
 .html_logo
@@ -151,6 +151,8 @@ span
 .line
 {
     margin-left: 48%;
+    /* margin-top: 5%; */
+    
 }
 .card-body{
     color:white;
@@ -162,17 +164,99 @@ span
 }
 .footer_card_1
 {
-    padding-top: 5%;
+    /* padding-top: 5%; */
 }
 .footer_card_2
 {
-    padding-top: 7%;
+    padding-top: 5%;
 }
 .footer_card_3
 {
-    padding-top: 5%;
+    /* padding-top: 5%; */
 }
 .footer_card_4
 {
-    padding-top: 7%;
+    padding-top: 5%;
+}
+.footer_para
+{
+    margin-top: 4%;
+}
+                /*starting media queriess  */
+
+@media only screen and (max-width: 768px)
+ {
+    .heading1
+    {
+        margin-left: 30%;
+    } 
+    .para
+    {
+        margin-left: 22%;
+    } 
+    .btn-outline-light
+{
+    margin-left:39%;
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+    .heading_2
+    {
+        margin-left: 45%;
+    }
+    .heading_3
+    {
+        margin-left: 20%;
+        padding-top: 1%;
+    }
+    .paragraph
+    {
+        padding-top: 1%;
+    }
+    .text_cards
+    {
+        padding-top: 2%;
+    }
+    .html_logo
+    {
+        float: left;
+        width: 3%;
+        height: 3%;
+        margin-top: 1%;
+        margin-left: 3%;
+        clear: left;    
+    }
+    .web
+    {
+        width: 5%;
+    }
+    .footer_heading
+    {
+        margin-left: 35%;
+    }
+    .line
+    {
+        margin-left: 41%;
+        /* padding-bottom: 4%; */
+        margin-bottom: 4%;
+
+    }
+    .footer_para
+    {
+        margin-top: 4%;
+    }
+                  
+}
+/* 768 medi querie end here */
+@media only screen and (max-width: 880px)
+ {
+  
+  
+  .btn-outline-light
+  {
+      margin-left: 38%;
+  }
 }
