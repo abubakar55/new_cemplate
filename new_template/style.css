@@ -31,18 +31,15 @@ i
 {
     margin-right: 5px;
 }
-h1
+h2
 {
-    margin-left: 42% ;
+    margin-left: 45% ;
     padding-top: 10%;
-    /* font-size: 130%; */
+    color: white;
+    
     
 }
-.heading1
-{
-    /* font-size: 80px; */
-    color: white;
-}
+
 span
 {
     margin-top: 30%;
@@ -54,16 +51,17 @@ span
 .para
 {
     color: white;
-    margin-left: 38%;
+    margin-left: 40%;
     padding-top: 1%;
 }
 .btn-outline-light
 {
-    margin-left:46%;
+    margin-left:48%;
     color: white;
     margin-top: 2%;
     margin-bottom: 5%;
 }
+/*
 .mobile_logo
 {
     width: 10%;
@@ -81,10 +79,11 @@ span
     width: 20%;
     margin-left: 39%;
 }
+
 .card_heading_2
 {
     margin-left: 30%;
-    padding-top: 5%;
+    padding-top: 2%;
     padding-bottom : 4%;   
 }
 .page_logo
@@ -104,7 +103,7 @@ span
     padding-top: 5%;
     padding-bottom : 4%;
 }
-            /*this paragraph stylling is just for the centering the paragraph in the page  */
+            /*this paragraph stylling is just for the centering the paragraph in the page  
 .paragraph
 {
     text-align: center;
@@ -117,7 +116,7 @@ span
 .heading_3
 {
     margin-left: 36%;
-    margin-top: 2%;
+    margin-top: 5%;
     margin-bottom: 2%;
 }
 .html_logo
@@ -141,7 +140,7 @@ span
 {
     margin-top: 5%;
 }
-            /* footer stylling */
+            /* footer stylling 
 .footer_heading
 {
     margin-left: 45%;
@@ -151,7 +150,7 @@ span
 .line
 {
     margin-left: 48%;
-    /* margin-top: 5%; */
+    /* margin-top: 5%; 
     
 }
 .card-body{
@@ -164,7 +163,7 @@ span
 }
 .footer_card_1
 {
-    /* padding-top: 5%; */
+    /* padding-top: 5%; 
 }
 .footer_card_2
 {
@@ -172,7 +171,7 @@ span
 }
 .footer_card_3
 {
-    /* padding-top: 5%; */
+    /* padding-top: 5%; 
 }
 .footer_card_4
 {
@@ -182,8 +181,9 @@ span
 {
     margin-top: 4%;
 }
+*/
                 /*starting media queriess  */
-
+/*
 @media only screen and (max-width: 768px)
  {
     .heading1
@@ -240,7 +240,7 @@ span
     .line
     {
         margin-left: 41%;
-        /* padding-bottom: 4%; */
+        /* padding-bottom: 4%; 
         margin-bottom: 4%;
 
     }
@@ -250,7 +250,8 @@ span
     }
                   
 }
-/* 768 medi querie end here */
+
+ 768 medi querie end here 
 @media only screen and (max-width: 880px)
  {
   
@@ -259,4 +260,4 @@ span
   {
       margin-left: 38%;
   }
-}
+ } */
