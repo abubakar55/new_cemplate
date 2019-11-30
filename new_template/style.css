@@ -22,12 +22,33 @@ li
 i
 {
     margin-right: 5px;
+    padding-top: 5%;
 }
 span
 {
     
     color: blue;
   
+}
+img
+{
+    padding-top: 5%;
+    
+}
+.para
+{
+    padding-bottom: 10%;
+    text-align: center;
+}
+.card_group_main div
+{
+    padding:0;
+    /* margin:0; */
+    display:inline-block;
+}
+.main_card
+{
+    margin-bottom: 2px;
 }
 /*! stylling for pixel hading */
 .pixel_heading
@@ -54,6 +75,7 @@ span
 .card_logoes
 {
     width: 50px;
+    
 }
 /* !styllying for card heading */
 .card_heading
@@ -67,6 +89,11 @@ span
 {
     color: white;
 }
+.card_group_main
+{
+    margin-bottom: 1%;
+}
+
 /*
 .card_2,.card_4
 {
@@ -139,3 +166,4 @@ span
 {
     margin-bottom: 1%;
 }
+
