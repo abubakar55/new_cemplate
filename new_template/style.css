@@ -3,24 +3,16 @@
     margin: 0;
     padding: 0;
 }
-body
-{
-    /* background-image: url("Website-Design-Background-1.jpg"); */
-    /* background-size: cover; */
-    /* width: 50px; */ 
-    /* border-image-width: 50px; */
-    /* background-attachment: fixed; */
-    /* color: white; */
-}
+
 
 .logo_image
 {
-    width: 15%;
-    margin-left: 30%;
+    width: 50px;
+    margin-left: 40%;
 }
 .navigation
 {
-    margin-left: 15%;
+    margin-left: 5%;
     
 }
 li
@@ -31,233 +23,119 @@ i
 {
     margin-right: 5px;
 }
-h2
-{
-    margin-left: 45% ;
-    padding-top: 10%;
-    color: white;
-    
-    
-}
-
 span
 {
-    margin-top: 30%;
+    
     color: blue;
-    /* position: absolute; */
-    /* font-size: 120%; */
-    /* font-size: 150px; */
+  
 }
-.para
+/*! stylling for pixel hading */
+.pixel_heading
 {
+    
     color: white;
-    margin-left: 40%;
-    padding-top: 1%;
+    margin-top: 10%;
+    margin-bottom: 1%;
+    
+    
 }
+/*! stylling for pixel perfect */
+.pixel_text
+{
+    color : white;
+}
+/*! stylling for button */
 .btn-outline-light
 {
-    margin-left:48%;
-    color: white;
-    margin-top: 2%;
+    margin-top: 15px;
     margin-bottom: 5%;
 }
+/*! stylling for card logoes */
+.card_logoes
+{
+    width: 50px;
+}
+/* !styllying for card heading */
+.card_heading
+{
+    margin-top: 5%;
+    margin-bottom: 3%;
+    color: white;
+}
+/* !stylling for card heading */
+.card-text
+{
+    color: white;
+}
 /*
-.mobile_logo
+.card_2,.card_4
 {
-    width: 10%;
-    margin-left: 40%;
+    opacity: 0.1;
 }
-.card_heading_1
-{
-    margin-left: 22%;
-    padding-top: 5%;
-    padding-bottom : 4%;
+*/
 
-}
-.heart_logo
-{
-    width: 20%;
-    margin-left: 39%;
-}
-
-.card_heading_2
-{
-    margin-left: 30%;
-    padding-top: 2%;
-    padding-bottom : 4%;   
-}
-.page_logo
-{
-    width: 20%;
-    margin-left: 35%;
-}
-.card_heading_2
-{
-    margin-left: 30%;
-    padding-top: 5%;
-    padding-bottom : 4%;   
-}
-.card_heading_3
-{
-    margin-left: 20%;
-    padding-top: 5%;
-    padding-bottom : 4%;
-}
-            /*this paragraph stylling is just for the centering the paragraph in the page  
-.paragraph
-{
-    text-align: center;
-}
+/*! stylling for About Us as heading 2  */
 .heading_2
 {
-    margin-left: 43%;
     margin-top: 5%;
 }
+/*! stylling for heading 3 awesome  stuff  */
 .heading_3
 {
-    margin-left: 36%;
-    margin-top: 5%;
-    margin-bottom: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
+.paragraph_about_us
+{
+ margin-bottom: 5%;
+}
+/*! styllling for html logo */
 .html_logo
 {
     float: left;
-    width: 5%;
-    height: 4%;
-    margin-top: 1%;
-    margin-left: 3%;
+    width: 50px;
+    /* margin-right: 4%; */
+    height: 50px;
+    /* margin-top: 1%; */
+    /* margin-left: 5%; */
     clear: left;
 }
-.first_card
-{
-    margin-left: 4%;
-}
+
 .para_heading_1
 {
     margin-left: 3%;
-}
-.text_cards
-{
-    margin-top: 5%;
-}
-            /* footer stylling 
-.footer_heading
-{
-    margin-left: 45%;
-    margin-top: 5%;
-    padding-top: 5%;
-}
-.line
-{
-    margin-left: 48%;
-    /* margin-top: 5%; 
     
 }
-.card-body{
-    color:white;
-}
-.branding
+/* ! mid paragraph1 */
+.paragraph1
 {
-    width: 20%;
-    margin-left: 35%;
+    float: left;
+    /* margin-left: 4%; */
+    clear: left;
 }
-.footer_card_1
+
+        /*! footer stylling */ 
+.footer_div
 {
-    /* padding-top: 5%; 
+    margin-top: 5%;
+}            
+.footer_heading
+{
+    /* margin-left: 45%; */
+    padding-top: 3%;
+    color: white;
+    
 }
-.footer_card_2
+.footer_logo
 {
-    padding-top: 5%;
-}
-.footer_card_3
-{
-    /* padding-top: 5%; 
-}
-.footer_card_4
-{
-    padding-top: 5%;
+    width : 50px;
+    text-align: center;
 }
 .footer_para
 {
-    margin-top: 4%;
-}
-*/
-                /*starting media queriess  */
-/*
-@media only screen and (max-width: 768px)
- {
-    .heading1
-    {
-        margin-left: 30%;
-    } 
-    .para
-    {
-        margin-left: 22%;
-    } 
-    .btn-outline-light
-{
-    margin-left:39%;
     color: white;
-    margin-top: 2%;
-    margin-bottom: 5%;
-    padding-bottom: 3%;
-    padding-top: 3%;
 }
-    .heading_2
-    {
-        margin-left: 45%;
-    }
-    .heading_3
-    {
-        margin-left: 20%;
-        padding-top: 1%;
-    }
-    .paragraph
-    {
-        padding-top: 1%;
-    }
-    .text_cards
-    {
-        padding-top: 2%;
-    }
-    .html_logo
-    {
-        float: left;
-        width: 3%;
-        height: 3%;
-        margin-top: 1%;
-        margin-left: 3%;
-        clear: left;    
-    }
-    .web
-    {
-        width: 5%;
-    }
-    .footer_heading
-    {
-        margin-left: 35%;
-    }
-    .line
-    {
-        margin-left: 41%;
-        /* padding-bottom: 4%; 
-        margin-bottom: 4%;
-
-    }
-    .footer_para
-    {
-        margin-top: 4%;
-    }
-                  
+.footer_card
+{
+    margin-bottom: 1%;
 }
-
- 768 medi querie end here 
-@media only screen and (max-width: 880px)
- {
-  
-  
-  .btn-outline-light
-  {
-      margin-left: 38%;
-  }
- } */
