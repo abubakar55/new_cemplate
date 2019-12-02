@@ -12,29 +12,36 @@
 }
 .navigation
 {
-    margin-left: 5%;
+    margin-left: 65%;
+    float:left;
+    color: white;
+    
     
 }
-li
+nav .navbar-nav li a{
+    color: white !important;
+    }
+
+ li
 {
     padding: 10px;
-}
-i
+    color: white;
+} 
+ i
 {
     margin-right: 5px;
     padding-top: 5%;
-}
+} 
 span
 {
     
     color: blue;
   
 }
-img
+/* img
 {
-    padding-top: 5%;
-    
-}
+    padding-top: 5%;   
+} */
 .para
 {
     padding-bottom: 10%;
@@ -116,6 +123,19 @@ img
 {
  margin-bottom: 5%;
 }
+.mid_img
+{
+    width : 50px;
+    /* margin-bottom: 12%;     */
+}
+
+.img-container
+{
+    text-align: center;
+}
+
+
+
 /*! styllling for html logo */
 .html_logo
 {
