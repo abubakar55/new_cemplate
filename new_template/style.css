@@ -18,6 +18,7 @@
     
     
 }
+
 nav .navbar-nav li a{
     color: white !important;
     }
@@ -50,7 +51,6 @@ span
 .card_group_main div
 {
     padding:0;
-    /* margin:0; */
     display:inline-block;
 }
 .main_card
@@ -82,6 +82,8 @@ span
 .card_logoes
 {
     width: 50px;
+    padding-top: 5%;
+  
     
 }
 /* !styllying for card heading */
@@ -101,13 +103,6 @@ span
     margin-bottom: 1%;
 }
 
-/*
-.card_2,.card_4
-{
-    opacity: 0.1;
-}
-*/
-
 /*! stylling for About Us as heading 2  */
 .heading_2
 {
@@ -126,7 +121,8 @@ span
 .mid_img
 {
     width : 50px;
-    /* margin-bottom: 12%;     */
+    
+    `
 }
 
 .img-container
@@ -141,10 +137,7 @@ span
 {
     float: left;
     width: 50px;
-    /* margin-right: 4%; */
     height: 50px;
-    /* margin-top: 1%; */
-    /* margin-left: 5%; */
     clear: left;
 }
 
@@ -157,7 +150,6 @@ span
 .paragraph1
 {
     float: left;
-    /* margin-left: 4%; */
     clear: left;
 }
 
@@ -168,9 +160,8 @@ span
 }            
 .footer_heading
 {
-    /* margin-left: 45%; */
     padding-top: 3%;
-    color: white;
+    color: #bababa;
     
 }
 .footer_logo
@@ -180,10 +171,12 @@ span
 }
 .footer_para
 {
-    color: white;
+    color: #bababa;
 }
 .footer_card
 {
     margin-bottom: 1%;
+    background-color: #212121 !important ;
+    /* color:blanchedalmond !important; */
 }
 
